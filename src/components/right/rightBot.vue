@@ -14,6 +14,7 @@
             <dv-capsule-chart
               :config="config"
               style="width: 200px; height: 200px"
+              :showValue="true"
             />
             <div id="echarts" style="width: 200px; height: 200px"></div>
           </div>
@@ -147,5 +148,11 @@ export default {
 }
 .main_top > img:hover {
   content: url("@/assets/img/xiangying.png");
+}
+.unit-label {
+  display: none;
+}
+/deep/.dv-capsule-chart .label-column {
+  font-size: 16px;
 }
 </style>

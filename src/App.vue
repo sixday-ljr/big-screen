@@ -2,27 +2,21 @@
   <div ref="appRef" id="app">
     <div class="layout-container">
       <PageFrame :showBackBtn="currentPage != 'home'" :onChange="changePage">
-        <el-collapse-transition name="el-fade-in-linear">
           <Home
             v-show="currentPage == 'home'"
             :pageData="pageData"
             :onChange="changePage"
           ></Home>
-        </el-collapse-transition>
-        <el-collapse-transition name="el-fade-in-linear">
           <Table
             v-show="currentPage == 'table'"
             :pageData="pageData"
             :onChange="changePage"
           ></Table>
-        </el-collapse-transition>
-        <el-collapse-transition name="el-fade-in-linear">
           <LeftInfo
             v-show="currentPage == 'leftinfo'"
             :pageData="pageData"
             :onChange="changePage"
           ></LeftInfo>
-        </el-collapse-transition>
       </PageFrame>
     </div>
   </div>

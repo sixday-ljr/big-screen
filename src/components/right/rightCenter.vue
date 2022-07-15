@@ -13,7 +13,7 @@
           <img
             class="imgs"
             @click="find(1)"
-            src="@/assets/img/huanjing.png"
+            src="@/assets/img/weisheng2.png"
             alt=""
             srcset=""
           />
@@ -223,18 +223,18 @@ export default {
       .main_top {
         display: flex;
         .img {
-          width: 250px;
+          // width: 250px;
           height: 40px;
           display: block;
           margin-left: 20px;
-          margin-top: 15px;
+          margin-top: 0px;
         }
         .imgs {
-          width: 120px;
-          height: 40px;
+          // width: 120px;
+          height: 28px;
           display: block;
           // margin-left: 20px;
-          margin-top: 15px;
+          margin-top: 8px;
         }
       }
       .center {
@@ -272,9 +272,9 @@ export default {
 .dv-capsule-chart {
   padding: 10px 0;
 }
-.main_top > img:hover {
-  content: url("@/assets/img/huanjing.png");
-}
+// .main_top > img:hover {
+//   content: url("@/assets/img/huanjing.png");
+// }
 .top_center {
   width: 88%;
   margin: 0 auto;

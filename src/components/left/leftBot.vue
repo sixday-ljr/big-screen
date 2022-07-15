@@ -51,6 +51,12 @@ export default {
               color: "#fff",
             },
           },
+          axisLabel: {
+            textStyle: {
+              color: "#fff",
+              fontSize: "22",
+            },
+          },
         },
         yAxis: {
           type: "value",
@@ -73,7 +79,7 @@ export default {
         },
         series: [
           {
-            name: "Email",
+            name: "完成率",
             type: "line",
             stack: "Total",
             data: [100, 400, 600, 200, 50, 80, 60],
@@ -107,7 +113,7 @@ export default {
         }
         #success {
           width: 360px;
-          height: 220px;
+          height: 230px;
           margin: 0 auto;
         }
       }

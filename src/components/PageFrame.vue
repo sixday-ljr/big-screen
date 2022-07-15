@@ -108,15 +108,15 @@ td {
   min-height: 280px;
   transform: translate(-50%, -50%);
   background: url("@/assets/images/videoborder.png") center no-repeat;
-  background-size: 45.8vh 45.8vh;
+  background-size: 78.8vh 78.8vh;
   /* opacity: 0.5; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .map_bg video {
-  width: 40.8vh;
-  height: 40.8vh;
+  width: 71.8vh;
+  height: 71.8vh;
   border-radius: 1000px;
   object-fit: cover;
 }
@@ -345,5 +345,11 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.dv-capsule-chart .label-column :last-child {
+  display: none !important;
+}
+.unit-label {
+  display: none !important;
 }
 </style>

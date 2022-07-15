@@ -14,8 +14,9 @@ export function useIndex(appRef) {
 
   // * 需保持的比例（默认2）
   // const baseProportion = parseFloat((baseWidth / baseHeight).toFixed(5))
-  const baseProportion = 1.777;
+  let  baseProportion = 1.777;
   const calcRate = () => {
+    baseProportion=window.innerWidth/window.innerHeight
     // 当前宽高比
     const currentRate = parseFloat(
       (window.innerWidth / window.innerHeight).toFixed(5)

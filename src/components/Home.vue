@@ -24,7 +24,6 @@
         :style="{
           width: '25%',
           transform: 'rotateY(40deg)',
-
           borderRadius: '20px',
         }"
       >
@@ -54,7 +53,7 @@
             }"
           >
             <div class="map_bg">
-              <video src="video.mp4" :autoPlay="true" muted loop></video>
+              <video src="video4.mp4" :autoPlay="true" muted loop></video>
             </div>
             <div class="circle_allow"></div>
             <div class="circle_bg"></div>
@@ -170,8 +169,7 @@ export default {
 .btn_right {
   display: flex;
   img {
-    width: 170px;
-    height: 70px;
+    // width: 170px;
     display: block;
   }
 }
